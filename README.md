@@ -1,12 +1,3 @@
-# awesome-industrial-medical-anomaly-detection
-
-
-明白了！你需要的是 **真正的空白 Markdown 模板（只保留结构，不含内容）**，而不是我帮你填好的内容。
-
-下面是 **纯模板版 README.md** —— 完全空结构，你自己填就行：
-
----
-
 # Awesome Industrial & Medical Anomaly Detection
 
 A curated list of papers, datasets, and code resources for anomaly detection in industrial inspection and medical imaging.
@@ -109,6 +100,3 @@ Guidelines for contributions.
 
 Specify the license.
 
----
-
-如果你想，我还可以提供更简洁版本、或更复杂版本（例如带 collapsible sections、分方法类别等）。
