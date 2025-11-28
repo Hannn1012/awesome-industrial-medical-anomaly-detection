@@ -4,13 +4,10 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 ---
 
+
 ## Table of Contents
 
-* [Industrial Anomaly Detection](#industrial-anomaly-detection)
 
-  * [Surveys](#surveys)
-  * [Papers](#papers)
-  * [Code](#code)
 
 
 # [Industrial Anomaly Detection](#industrial-anomaly-detection)
@@ -33,7 +30,7 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 
 
-- ⭐ *(2025-TMI)* **Facing Differences of Similarity: Intra- and Inter-Correlation Unsupervised Learning for Chest X-Ray Anomaly Detection** [[Paper]](CheXpert), [[Code]]()
+- ⭐ *(2025-TMI)* **Facing Differences of Similarity: Intra- and Inter-Correlation Unsupervised Learning for Chest X-Ray Anomaly Detection** [[Paper]](CheXpert)
   - Authors: Shicheng Xu; Wei Li; Zuoyong Li; Tiesong Zhao; Bob Zhang
   - An intra- and inter-correlation learning framework with anatomical feature-pyramid fusion to enhance chest X-ray anomaly detection. 
   - Datasets: ZhangLab, RSNA, CheXpert
@@ -187,9 +184,9 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 ## Datasets
 
-- [[BMAD]](https://github.com/DorisBao/BMAD) : https://github.com/DorisBao/BMAD 
+- BMAD: https://github.com/DorisBao/BMAD 
 
-- [[BraTS2021 Dataset]](http://braintumorsegmentation.org/): http://braintumorsegmentation.org/
+- BraTS2021 Dataset: http://braintumorsegmentation.org/
   - https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
 - Pathology  
@@ -197,11 +194,11 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 
 - Chest X-ray  
-  - [[RSNA](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge)]: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
+  - RSNA: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
 
-- [[VinDr-CXR]] (https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection) :  https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
+- VinDr-CXR:  https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection
 
--  [[Liver CT]]
+- Liver CT
   - BTCV Dataset : https://www.synapse.org/#!Synapse:syn3193805/wiki/217753
   - LiTS Dataset: https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation
 -   
@@ -210,7 +207,9 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 ---
 
-## License
+# Updates
 
-Specify the license.
+- 2025-11-28: Added Medical Anomaly Detection papers (2020-2025, TMI,MedIA, MICCAI, CVPR) and datasets.
+
+
 
