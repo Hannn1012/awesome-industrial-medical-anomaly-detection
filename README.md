@@ -56,10 +56,16 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 
 
-- ⭐⭐ *(2025-AAAI)* **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32601), [[ArXiv]](https://arxiv.org/abs/2412.07579), [[Code]](https://github.com/hito2448/urd)
+- ⭐⭐ *(2025-AAAI)* **Unlocking the Potential of Reverse Distillation for Anomaly Detection** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/32601), [[ArXiv]](https://arxiv.org/pdf/2406.07487), [[Code]](https://github.com/hyao1/GLAD)
   - Authors: Xinyue Liu, Jianyuan Wang, Biao Leng, Shuo Zhang
   - strengthens reversed distillation by adding an expert network and guided feature transfer so the model can better distinguish abnormal features and reconstruct clean normal patterns with fewer errors. 
   - Datasets: MVTec AD, MPDD, BTAD
+
+
+- ⭐⭐ *(2024-ECCV)* **GLAD: Towards Better Reconstruction with  Global and Local Adaptive Diffusion Models for Unsupervised Anomaly Detection** [[Paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08940-supp.pdf), [[ArXiv]](https://arxiv.org/abs/2412.07579), [[Code]](https://github.com/hito2448/urd)
+  - Authors: Hang Yao, Ming Liu, Zhicun Yin, Zifei Yan, Xiaopeng Hong, and Wangmeng Zuo
+  - strengthens the reconstruction process of the diffusion model from global and local perspectives.
+  - Datasets: MVTec-AD, MPDD, VisA, PCB-Bank
 
 
 
@@ -219,22 +225,24 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 ## Supervised/Openset/Noise Anomaly Detection Methods
 
+### Supervised/Openset Methods
+
+- ⭐⭐⭐ *(2025-NeurIPS)* **Normal-Abnormal Guided Generalist Anomaly Detection** [[ArXiv]](https://arxiv.org/pdf/2510.00495), [[Code]](https://github.com/JasonKyng/NAGL)
+  - Authors: Yuexin Wang, Xiaolei Wang, Yizheng Gong, Jimin Xiao 
+  - a memory-based method utilizes normal and abnormal as reference.
+  - Datasets: MVTecAD, VisA, BraTS
 
 
-
-- ⭐⭐ *(2025-CVPR)* **Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection** [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Distribution_Prototype_Diffusion_Learning_for_Open-set_Supervised_Anomaly_Detection_CVPR_2025_paper.pdf), [[ArXiv]](https://arxiv.org/abs/2502.20981), [[Code]](https://github.com/fuyunwang/DPDL)
+- ⭐⭐ *(2025-CVPR)* **Distribution Prototype Diffusion Learning for Open-set Supervised Anomaly Detection** [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Jung_TailedCore_Few-Shot_Sampling_for_Unsupervised_Long-Tail_Noisy_Anomaly_Detection_CVPR_2025_paper.pdf), [[Code]](https://github.com/fuyunwang/DPDL)
   - Authors: Fuyun Wang, Tong Zhang, Yuanzhi Wang, Yide Qiu, Xin Liu, Xu Guo, Zhen Cui
   - a prototype-driven latent space that tightly clusters normal samples while pushing abnormal ones away, enabling clearer separation even with limited anomaly examples. 
   - Datasets: MVTec AD, Optical, SDD, AITEX, ELPV, Mastcam, BrainMRI, HeadCT, Hyper-Kvasir
-
 
 
 - ⭐ *(2025-AAAI)* **Qsco: A Quantum Scoring Module for Open-set Supervised Anomaly Detection** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34190), [[ArXiv]](https://arxiv.org/abs/2405.16368)
   - Authors: Yifeng Peng, Xinyi Li, Zhiding Liang, Ying Wang
   - a quantum-enhanced scoring module that uses variational quantum circuits to better handle uncertainty and improve the detection of unfamiliar abnormal patterns. 
   - Datasets:  MVTec AD, AITEX, SDD, ELPV, Optical, Mastcam, BrainMRI, HeadCT, Hyper-Kvasir
-
-
 
 
 
@@ -298,14 +306,10 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 
 
 
-
 - ⭐ *(2019-ICLR)* **Deep Anomaly Detection with Outlier Exposure** [[Paper]](https://openreview.net/forum?id=HyxCxhRcY7), [[ArXiv]](https://arxiv.org/abs/1812.04606), [[Code]](https://github.com/hendrycks/outlier-exposure)
   - Authors: Dan Hendrycks, Mantas Mazeika, Thomas Dietterich
   - improves detection of unusual inputs by training models with large external datasets of out-of-distribution examples so they can better recognize unseen irregular cases. 
   - Datasets: SVHN, CIFAR-10, CIFAR-100, Tiny ImageNet, Places365, 20 Newsgroups, TREC, SST, 80 Million Tiny Images, ImageNet-22K, WikiText-2
-
-
-
 
 
 
@@ -315,11 +319,30 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
   - Datasets: donors, census, fraud, celeba, backdoor, URL, campaign, news20, thyroid 
 
 
+### Noise Anomaly Detection Methods
 
 
+- ⭐⭐ *(2025-NeurIPS)* **An Evidence-Based Post-Hoc Adjustment Framework for Anomaly Detection Under Data Contamination** [[ArXiv]](https://arxiv.org/pdf/2510.21296) [[code]](https://github.com/sukanyapatra1997/EPHAD)
+  - Authors: Sukanya Patra, Souhaib Ben Taieb
+  - proposes a test-time adaptation framework that updates the outputs of AD models trained on contaminated datasets using evidence gathered at test time. 
+  - Datasets: MVTecAD, MPDD, ViSA, RealIAD
 
 
+- ⭐⭐ *(2025-CVPR)* **TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection** [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Jung_TailedCore_Few-Shot_Sampling_for_Unsupervised_Long-Tail_Noisy_Anomaly_Detection_CVPR_2025_paper.pdf), [[Code]](https://github.com/jungyg/TailedCore)
+  - Authors: Yoon Gyo Jung, Jaewoo Park, Jaeho Yoon, Kuan-Chuan Peng, Wonchul Kim, Andrew Beng Jin Teoh, Octavia Camps
+  - an improved model based on the softpatch to address the issues of tail class and noise obfuscation. 
+  - Datasets: MVTecAD, VisA
 
+- ⭐⭐ *(2025-PR)* **SoftPatch+: Fully Unsupervised Anomaly Classification and Segmentation** [[Paper]](https://www.sciencedirect.com/science/article/pii/S003132032401046X?ref=pdf_download&fr=RR-3&rr=9ada506ebe6397fb), [[Code]](https://github.com/TencentYoutuResearch/AnomalyDetection-SoftPatch)
+  - Authors: Chengjie Wanga, Xi Jiangc, Bin-Bin Gaob, Zhenye Ganb, Yong Liub, Feng Zhengc, Lizhuang Maa
+  - a memory-based unsupervised AD methods which efficiently denoise the data at the patch level.
+  - Datasets: MVTecAD, BTAD
+
+
+- ⭐⭐⭐ *(2022-NeurIPS)* **SoftPatch: Unsupervised Anomaly Detection with Noisy Data** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/637a456d89289769ac1ab29617ef7213-Paper-Conference.pdf), [[Code]](https://github.com/TencentYoutuResearch/AnomalyDetection-SoftPatch)
+  - Authors: Xi Jiang, Jianlin Liu, Jinbao Wang, Qian Nie, Kai Wu, Yong Liu, Chengjie Wang, Feng Zheng
+  - propose an patch-level denoise strategy to address the noisy data during training 
+  - Datasets: MVTecAD, BTAD
 
 
 
@@ -647,7 +670,7 @@ A curated list of papers, datasets, and code resources for anomaly detection in 
 ---
 
 # Updates
-
+- 🍋 2025-12-14: Added Industrial noisy AD papers, supervised AD papers (2022-2025, CVPR, PR, NeurIPS, etc.).
 - 🦘 2025-12-11: Added Industrial unsupervised AD papers (2018-2025, ICLR, CVPR, ICCV, AAAI, etc.).
 - 🦘 2025-12-10: Added Industrial supervised AD papers (2017-2025, ICLR, CVPR, AAAI).
 - 🦘 2025-11-29: Added Medical Anomaly Detection papers (2017-2025, TMI,MedIA, MICCAI, CVPR) and datasets.
